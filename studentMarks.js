@@ -28,3 +28,9 @@ const mean = (a, b, c, d, e) => {
 }
 
 console.log(mean(marksOfHridula, marksOfRushmila, marksOfSoha, marksOfNaba, marksOfNabiha));
+
+// for each loop
+let num = [1,2,3,4,5,6,7,8,9];
+num.forEach((element) => {
+  console.log(element*element); // prints the square of each element
+})
